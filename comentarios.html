@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+
+	<title>Comentarios</title>
+
+	<link rel="stylesheet" href="Comentarios.css">
+	<link rel="stylesheet" href="diseños.css">
+	<link rel="stylesheet" href="Iconos-v1.0/fonts/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+	
+</head>
+
+	<body>
+		<div class="encabezado">
+		<header>
+			<ul class="nav">
+				<h1>Contactenos</h1>
+				<li><a href="nosotros.html" class="icon-left icon-group"> Quienes somos</a></li>	
+				<li><a href="comentarios.html" class="icon-messages"> Comentarios</a></li>
+				<li><a href="index.html" class="icon-center"></a></li>	
+				<li><a href="tienda.html" class="icon-shopping-cart"> Tienda</a></li>
+				<li><a href="marcas.html" class="icon-right icon-zoom-outline"> Marcas</a></li>
+			</ul>
+		</header>	
+		</div>	
+
+			<div class="columna" id="comentario">
+				<form action="index.html" method="post">
+					<h1>Queremos su opinión</h1>
+					
+					<fieldset>
+					  <legend><span class="number">1</span>Para nuestros clientes y proveedores
+						es importante saber su opinión o queja</legend>
+					  <label for="name">Nombre:</label>
+					  <input type="text" id="name" name="user_name">
+					  <label>Edad:</label>
+					  <input type="text" id="user_age" name="user_age">
+					  <label>Sexo:</label>
+					  <input type="radio" id="men" value="men" name="user_sex"><label for="men" class="light">Hombre</label>
+					  <input type="radio" id="women" value="women" name="user_sex"><label for="women" class="light">Mujer</label>
+					  <input type="radio" id="other" value="other" name="user_sex"><label for="women" class="light">Otro</label>
+					  <br><br>
+					  <label>Comentario y/o sugerencia:</label>
+					  <textarea name="longtext" rows = "10" id="text" cols="30" placeholder="Dinos tu opinión"></textarea><br>
+					</fieldset>
+					<button type="submit">Enviar</button>
+				  </form>
+		
+		<div class="pie" id="comentarios">
+			<h2 align="center">Gracias por su cooperación</h2>
+		</div>	
+	</body>
+</html>
